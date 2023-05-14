@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    x = 0
+    x = min(my_list)
     if not my_list:
         return None
     else:

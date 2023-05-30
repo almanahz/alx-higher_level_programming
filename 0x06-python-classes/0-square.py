@@ -9,6 +9,7 @@ author: Abdulqudus Abdulsalam
 class Square:
     """This is an empty square which has no attribute"""
     
-    def __init__(self):
+    def __init__(self, length):
         """Initialize and accept argument for fields needed in
         square"""
+        self.length = length

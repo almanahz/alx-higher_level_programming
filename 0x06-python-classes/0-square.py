@@ -9,4 +9,7 @@ author: Abdulqudus Abdulsalam
 class Square:
     """This is an empty square which has no attribute"""
     
+    def __init__(self):
+        """Initialize and accept argument for fields needed in
+        square"""
     pass

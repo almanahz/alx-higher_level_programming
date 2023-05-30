@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""This file has an empty class which
-performs no function
+"""Square Class
+
+This class don't do anything for the moment
+
 """
+
+
 class Square:
-    """Simple class that does not have 
-    an attribute"""
-        pass
+    pass
+

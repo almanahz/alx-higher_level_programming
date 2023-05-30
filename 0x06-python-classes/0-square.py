@@ -7,5 +7,6 @@ This class don't do anything for the moment
 
 
 class Square:
+    '''This is an empty square which has no attribute '''
     pass
 

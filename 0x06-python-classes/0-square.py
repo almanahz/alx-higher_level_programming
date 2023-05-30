@@ -3,4 +3,8 @@ class Square:
     """Simple empty square class which has 
     no field or method which defines a square
     """
-    pass
+    __init__(self):
+        """to initialize value provided in
+        the argument
+        """
+        pass

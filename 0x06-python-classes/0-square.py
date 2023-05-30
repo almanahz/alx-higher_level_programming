@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 file_name:0-square.py
 description: contains a class square with no attributes
@@ -12,4 +11,4 @@ class Square:
     def __init__(self, length):
         """Initialize and accept argument for fields needed in
         square"""
-        self.length = length
+        self.__length = length

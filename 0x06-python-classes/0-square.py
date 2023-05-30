@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-'''Square Class This class don't do anything for the moment'''
+'''
+file_name:0-square.py
+description: contains a class square with no attributes
+author: Abdulqudus Abdulsalam
+'''
 
 class Square:
     """This is an empty square which has no attribute"""

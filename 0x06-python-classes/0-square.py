@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Square Class
+"""
+Square Class
 
 This class does not do anything for the moment
 

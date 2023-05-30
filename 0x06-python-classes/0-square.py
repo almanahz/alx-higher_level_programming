@@ -1,10 +1,8 @@
 #!/usr/bin/python3
+"""This file has an empty class which
+performs no function
+"""
 class Square:
-    """Simple empty square class which has 
-    no field or method which defines a square
-    """
-    __init__(self):
-        """to initialize value provided in
-        the argument
-        """
+    """Simple class that does not have 
+    an attribute"""
         pass

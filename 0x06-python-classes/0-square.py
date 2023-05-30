@@ -12,4 +12,3 @@ class Square:
     def __init__(self):
         """Initialize and accept argument for fields needed in
         square"""
-    pass

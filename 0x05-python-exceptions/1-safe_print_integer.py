@@ -1,18 +1,9 @@
 #!/usr/bin/python3
-"""a function that prints x elements of a list."""
 
 
-def safe_print_list(my_list=[], x=0):
-    idx = 0
-
+def safe_print_integer(value):
     try:
-        for i in my_list:
-            if idx < x:
-                print('{}'.format(my_list[idx]), end='')
-                idx += 1
-
-        print()
-    except TypeError:
-        pass
-    finally:
-        return idx
+        print('{:d}'.format(value))
+        return True
+    except (TypeError, ValueError):
+        return False

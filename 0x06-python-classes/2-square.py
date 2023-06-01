@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""Square Class
 
-A Square Class
-
-"""
-
+"""Square Class: A Square Class"""
 
 class Square:
+    """A class which defines a square and raises error upon inputing incorrect type"""
 
     def __init__(self, size=0):
         """__init__

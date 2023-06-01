@@ -7,6 +7,8 @@ A Square Class
 
 
 class Square:
+    """A square class which takes an argument of 
+    its square size"""
 
     def __init__(self, size):
         """__init__
@@ -18,4 +20,4 @@ class Square:
             size (int): The size of the square.
 
         """
-        self.__size = size
+        self.size = size

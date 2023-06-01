@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+"""It contains a class which perform functions on a square"""
+
 class Square:
     """Square Class
 

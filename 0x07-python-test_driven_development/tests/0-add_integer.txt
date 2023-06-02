@@ -1,0 +1,8 @@
+>>> add_integer(16, 24)
+40
+>>> add_integer(20)
+118
+>>> add_integer("a", 45)
+a must be an integer
+>>> add_integer(20, 'c')
+b must be an integer

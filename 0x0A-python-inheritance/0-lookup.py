@@ -1,3 +1,6 @@
+
+#!/usr/bin/python3
+
 """Description: A function that looks for a list of
 available attributes and methods of an objects"""
 

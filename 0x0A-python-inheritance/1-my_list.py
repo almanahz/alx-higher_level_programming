@@ -1,12 +1,20 @@
 #!/usr/bin/python3
-"""This file contains a function that inherit from a class"""
+"""
+A module to prints a list in ascending order
+"""
 
 
 class MyList(list):
-    """This class uses inherited method to perform some
-    operations on a list"""
+    """
+    A class to customize the list class
+    """
 
     def print_sorted(self):
-        """This mwthod prints a sorted version of the instance"""
+        """
+        Prints a list in ascending order
+
+        Sort a list and then prints on the output
+        """
+
         if issubclass(MyList, list):
             print(sorted(self))

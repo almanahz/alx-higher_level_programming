@@ -8,4 +8,4 @@ class MyLliist(list):
 
     def print_sorted(self):
         """This mwthod prints a sorted version of the instance"""
-        print(sorted(self.list))
+        print(sorted(self))

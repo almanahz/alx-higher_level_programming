@@ -4,7 +4,7 @@ from json import dumps
 JSON opertion"""
 
 
-def from_json_string(my_str):
+def to_json_string(my_obj):
     """desc: This function performs some JSON operation
     return: JSON representation of an string"""
-    return dumps(my_str)
+    return dumps(my_obj)

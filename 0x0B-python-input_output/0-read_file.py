@@ -7,4 +7,5 @@ def write_file(filename="", text=""):
     """desc: function writes a string to a text file
     return: number fo characters written"""
     with open(filename, mode='w', encoding='utf-8') as f:
-        f.write(text)
+        for line in text:
+            f.write(line)

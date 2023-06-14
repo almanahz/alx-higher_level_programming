@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+from json import dumps
 """This file contains a function that performs some
 JSON opertion"""
-from json import dumps
 
 
 def from_json_string(my_str):

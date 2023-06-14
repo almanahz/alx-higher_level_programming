@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-from json import dump
 """This file contains a function that performs some
 JSON opertion"""
 
-
+from json import dump
 def save_to_json_file(my_obj, filename):
     """desc: This function performs some JSON operation
     return: none"""

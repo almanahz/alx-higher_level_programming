@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-from json import loads
 """This file contains a function that performs some
 JSON opertion"""
+
+
+from json import loads
 
 
 def from_json_string(my_str):

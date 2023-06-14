@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""This file contains a function that reads a text file"""
+"""This file contains a function that writes
+a string to a text file"""
 
 
-def read_file(filename=""):
-    """This function reads a text file and returns
-    the read file"""
-    with open(filename, encoding='utf-8') as f:
-        for line in f:
-            print(line, end='')
+def write_file(filename="", text=""):
+    """desc: function writes a string to a text file
+    return: number fo characters written"""
+    with open(filename, mode='w', encoding='utf-8') as f:
+        f.write(text)

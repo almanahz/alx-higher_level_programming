@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from json import load
 """This file contains a function that performs some
 JSON opertion"""
 

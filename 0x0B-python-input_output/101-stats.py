@@ -1,8 +1,14 @@
 #!/usr/bin/python3
+"""This file contains a function that read from stdin
+and performs some operation"""
+
+
 import sys
 
 
 def print_info():
+    """This function writes a script that readd
+    stdin line by line and computes metrics"""
     print('File size: {:d}'.format(file_size))
 
     for scode, code_times in sorted(status_codes.items()):

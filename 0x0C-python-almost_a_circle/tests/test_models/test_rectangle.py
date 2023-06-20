@@ -1,5 +1,5 @@
 
-dule for Rectangle unit tests.'''
+""module for Rectangle unit tests.'''
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle

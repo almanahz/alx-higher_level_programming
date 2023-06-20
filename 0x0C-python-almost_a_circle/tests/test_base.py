@@ -1,25 +1,22 @@
-#!/usr/bin/python3
-"""A module containing test cases for base class"""
 
+dule for Base unit tests.'''
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
+from models.square import Square
 
-class TestBaseInstantiation(unittest.TestCase):
-    """
-    A class that tests various testcases for class Base
-    """
-    
-    def no_argument(self):
-        """
-        Test for initialization for class variable when no
-        argument is passed
-        """
-        b1 = Base()
-        b2 = Base()
-        b3 = Base()
-        self.assertEqual(b1.id, b2.id-1)
-        self.assertEqual(b1.id, b3.id-2)
+
+class TestBase(unittest.TestCase):
+    '''Tests the Base class.'''
+
+    def setUp(self):
+        '''Imports module, instantiates class'''
+        Base._Base__nb_objects = 0
+        pass
+
+    def tearDown(self):
+        '''Cleans up after each test_method.'''
+        pass
 
     def test_A_nb_objects_private(self):
         '''Tests if nb_objects is private class attribute.'''
@@ -289,23 +286,6 @@ were given"
         self.assertEqual(str(list_in[0]), str(list_out[0]))
         self.assertNotEqual(id(list_in[1]), id(list_out[1]))
         self.assertEqual(str(list_in[1]), str(list_out[1]))
-    def with_single_argument(self):
-        """
-        Test for initialization of class variable when an
-        argument of various type  is passed
-        """
-        b1 = Base(0)
-        b2 = Base("string")
-        b3 = Base(-14)
-        b4 = Base(12.45)
-        b5 = Base([12, 145])
-        
-        self.assertEqual(b1.id, 0)
-        self.assertEqual(b2.id, "string")
-        self.assertEqual(b3.id, -14)
-        self.assertEqual(b4.id, 12.45)
-        self.assertEqual(b5.id, [12, 145])
 
 if __name__ == "__main__":
     unittest.main()
-

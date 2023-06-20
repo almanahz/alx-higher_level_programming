@@ -1,5 +1,4 @@
-
-dule for Square unit tests.'''
+'''module for Square unit tests.'''
 import unittest
 from models.base import Base
 from models.square import Square

@@ -1,5 +1,4 @@
-
-dule for Square class.'''
+'''module for Square class.'''
 from models.rectangle import Rectangle
 
 

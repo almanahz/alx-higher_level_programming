@@ -1,4 +1,4 @@
-
+'''
 dule for Base class.'''
 from json import dumps, loads
 import csv

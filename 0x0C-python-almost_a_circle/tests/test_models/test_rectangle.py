@@ -16,7 +16,7 @@ Unittest classes:
 import io
 import sys
 import unittest
-from mdoels.base import Base
+from models.base import Base
 from models.rectangle import Rectangle
 
 

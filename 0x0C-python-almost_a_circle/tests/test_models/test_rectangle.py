@@ -16,8 +16,8 @@ Unittest classes:
 import io
 import sys
 import unittest
-from base import Base
-from rectangle import Rectangle
+from mdoels.base import Base
+from models.rectangle import Rectangle
 
 
 class TestRectangle_instantiation(unittest.TestCase):

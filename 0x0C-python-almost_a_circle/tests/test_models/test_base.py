@@ -2,6 +2,7 @@
 
 import unittest
 from models.base import Base
+import sys
 
 
 class TestBaseInstantiation(unittest.TestCase):

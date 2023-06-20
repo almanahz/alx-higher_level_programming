@@ -4,6 +4,10 @@ import unittest
 from models.base import Base
 import sys
 
+from models.base import Base
+from models.rectangle import Rectangle
+from models.square import Square
+
 
 class TestBaseInstantiation(unittest.TestCase):
     """A class that tests various testcases for class Base"""

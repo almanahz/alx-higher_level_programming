@@ -19,7 +19,7 @@ if __name__ == '__main__':
     with db.cursor() as cur:
         cur.execute("""
             SELECT
-                c.id, c.name, s.name
+                cities.id, cities.name, states.name
             FROM
                 cities c
             JOIN

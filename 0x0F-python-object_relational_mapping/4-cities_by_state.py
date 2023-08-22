@@ -21,9 +21,9 @@ if __name__ == '__main__':
             SELECT
                 cities.id, cities.name, states.name
             FROM
-                cities c
+                cities AS c
             JOIN
-                states s
+                states AS s
             ON
                 c.state_id = s.id
             ORDER BY

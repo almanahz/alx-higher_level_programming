@@ -19,13 +19,13 @@ if __name__ == '__main__':
     with db.cursor() as cur:
         cur.execute("""
             SELECT
-                cities.id, cities.name, states.name
+                c.id, c.name, s.name
             FROM
-                cities
+                cities c
             JOIN
-                states
+                states s
             ON
-                cities.state_id = states.id
+                c.state_id = s.id
             ORDER BY
                 cities.id ASC
         """)

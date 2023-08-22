@@ -15,7 +15,7 @@ if __name__ == '__main__':
                          passwd=argv[2], db=argv[3])
 
     with db.cursor() as cur:
-        cur.execute("""SELECT 
+        cur.execute("""SELECT
                         cities.id, cities.name
             FROM
                 cities

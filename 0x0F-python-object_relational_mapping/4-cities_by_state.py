@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This script lists all cities from
-the database `hbtn_0e_4_usa`.
+This script lists all cities from the database `hbtn_0e_4_usa`.
 """
 
 import MySQLdb
@@ -9,8 +8,7 @@ from sys import argv
 
 if __name__ == '__main__':
     """
-    Access to the database and get the cities
-    from the database.
+    Entry point to database
     """
 
     db = MySQLdb.connect(host="localhost", user=argv[1], port=3306,
@@ -21,11 +19,11 @@ if __name__ == '__main__':
             SELECT
                 cities.id, cities.name, states.name
             FROM
-                cities AS c
+                cities
             JOIN
-                states AS s
+                states
             ON
-                c.state_id = s.id
+                cities.state_id = states.id
             ORDER BY
                 cities.id ASC
         """)

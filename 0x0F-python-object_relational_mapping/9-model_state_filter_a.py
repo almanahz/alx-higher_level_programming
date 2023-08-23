@@ -11,7 +11,7 @@ from sqlalchemy.orm import sessionmaker
 
 if __name__ == "__main__":
     """
-    Entry point to the database
+    Entry point to the database.
     """
 
     db_url = 'mysql+mysqldb://{}:{}@localhost:3306/{}'.format(

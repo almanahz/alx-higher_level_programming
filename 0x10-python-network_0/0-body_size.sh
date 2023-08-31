@@ -5,4 +5,4 @@
 
 url="$1"
 
-curl -Is "$url" | grep content-length | awk -F ': ' '{print $2}'
+curl -Is "$url" | grep "Content-Length" | awk -F ' ' '{print $2}'
